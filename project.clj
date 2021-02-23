@@ -4,4 +4,5 @@
   :license {:name "Unlicense"
             :url "https://unlicense.org"}
   :dependencies [[org.clojure/clojure "1.10.1"]]
-  :repl-options {:init-ns aoc-2020.core})
+  :target-path "target/%s"
+  :profiles {:uberjar {:aot :all}})
